@@ -5,7 +5,7 @@ install_requires = ["opencv-python", "Pillow", "numpy"]
 packages = ["cv2utils"]
 setup(
     name="cv2utils",
-    version="1.2",
+    version="1.3",
     packages=packages,
     install_requires=install_requires,
 )
