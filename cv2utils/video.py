@@ -27,3 +27,12 @@ class cv2_video:
             raise ValueError("can't read frame")
 
         return frame
+
+    def read_frame(self, num_frame):
+        self.cap.set(cv2.CAP_PROP_POS_FRAMES, num_frame)
+        ret, frame = self.cap.read()
+
+        if ret == False:
+            raise ValueError("can't read frame")
+
+        return frame
