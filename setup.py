@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-install_requires = ["cv2", "PIL", "numpy"]
+install_requires = ["opencv-python", "Pillow", "numpy"]
 
 packages = ["cv2utils"]
 setup(
